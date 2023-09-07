@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import Image from "next/image";
 import styles from "./navbar.module.css";
 
 interface NavbarProps {
@@ -31,8 +30,9 @@ const Navbar = ({ darkMode }: NavbarProps) => {
     <>
       <nav className={`${styles.navbar} ${darkMode && styles.darkMode} w-full flex flex-wrap items-center sm:justify-between justify-center`} > 
         <div className="flex items-center justify-center">
-          <NavItem href="https://github.com/decentxyz/live-ticketing" openInNewTab><Image width={20} height={20} src="/images/github-icon.png" alt="icon" /></NavItem>
-          <NavItem href="https://decent.xyz" openInNewTab>DECENT</NavItem>
+          {/* Replaced GitHub icon with the emoji 🎫 */}
+          🎫
+          <NavItem href="https://arvrtise.com" openInNewTab>Arvrtise</NavItem>
             X
           <NavItem href="https://twitter.com/wavWRLD_" openInNewTab>wavWRLD</NavItem>
         </div>
