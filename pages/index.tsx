@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={`${styles.title} font-medium tracking-widest font-[500] text-5xl`}>
-          [FUTURE OF EVENTS]
+          ["wavWRLD]
         </h1>
 
         <div className={`${styles.description} items-center gap-2`}>
@@ -35,16 +35,16 @@ const Home: NextPage = () => {
         <CollectContact />
 
         <div className={`${styles.grid} cursor-pointer`}>
-          <Link href='http://twitter.com/arvrtise'>
+          <Link href='http://www.tiktok.com/t/ZT829PTEg'>
           <div className={`${styles.card} bg-gradient-to-br from-indigo-900 to-transparent`}>
-            <h2 className='tracking-widest font-[500] uppercase'>Follow @Arvrtise</h2>
-            <p className='tracking-widest'>Follow Arvrtise on Twitter</p>
+            <h2 className='tracking-widest font-[500] uppercase'>AR Filter Challenge</h2>
+            <p className='tracking-widest'>Create the #1 ETH head TikTok Reel to win a VIP upgrade. </p>
           </div>
           </Link>
 
-          <a href="https://discord.gg/6mNYwJsuab" className={`${styles.card} bg-gradient-to-tl from-indigo-900 to-transparent`}>
-            <h2 className='tracking-widest font-[500] uppercase'>Join our Discord</h2>
-            <p className='tracking-widest'>Network with event attendees and re-sell your ticket if you like.</p>
+          <a href="https://www.spatial.io/s/Arvrtises-Lo-Fi-Scene-64fa8ceea41443c6406b4e9e?share=9183908625530175045" className={`${styles.card} bg-gradient-to-tl from-indigo-900 to-transparent`}>
+            <h2 className='tracking-widest font-[500] uppercase'>Join our Metaverse</h2>
+            <p className='tracking-widest'>Connect with fellow event attendees and even resell your ticket if you wish.</p>
           </a>
         </div>
       </main>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
       <footer className='py-8 border-t border-white text-white'>
         <a className='flex justify-center items-center text-xl' href="https://arvrtise.com" target="_blank" rel="noopener noreferrer">
           <Image src='/images/decent.png' height={18} width={100} alt='Decent 💪' />
-          <span className='pl-4 tracking-widest font-[400] uppercase text-sm'>event</span> 
+          <span className='pl-4 tracking-widest font-[400] uppercase text-sm'></span> 
         </a>
       </footer>
     </div>
